@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "experiment": "paired_accuracy_deadline_study",
+  "environment": {
+    "python": "3.9.25",
+    "system": "Windows",
+    "machine": "",
+    "package_version": "0.1.0",
+    "source_sha256": "4a0416196574d33ea656583d9c296163ae6e9456b66aa4159a89c379858a8632",
+    "memory_method": "tracemalloc peak Python allocations; not process peak RSS"
+  },
+  "config_sha256": "108947f27f2fdd35b82f168dc7198ee62936e5d3c9f932f4aad2f40c77cb9127",
+  "development_seeds": [
+    1
+  ],
+  "test_seeds": [
+    101
+  ],
+  "selected_fixed_policy": "pd_theta_2",
+  "selection_rule": "development mean profit over all scenarios; smallest theta breaks ties",
+  "bounds": {
+    "phi1": 3.2,
+    "phi2": 0.21919200000000003,
+    "rmax": 2.0,
+    "nmax": 0.5,
+    "a": 1.7320508075688774,
+    "b": 2.25
+  },
+  "trace_hashes": {
+    "development/1/high_tight": "bd9064803d0775dbdbec0bd46057e8cd5ccc28942467b554a618f41cb3377a2f",
+    "development/1/high_loose": "6fc6a71707df0b5a549a146d6e1034beffd5d2f2dab342626386eba55e9cc8be",
+    "development/1/random": "e2618bd5e17d173e8d64a18b6e0a8eca1239e123d17dd3fd56c0f440ef53ee48",
+    "development/1/switch": "4a5db049d6ec62cc3500a41f73cbbe54f838802cb6ed99779f9dd1a4cb5d067b",
+    "test/101/high_tight": "87bbe1a44de90f9ff54f8183831cdf1fadedeaef2f1aba24df0631a787c86d7c",
+    "test/101/high_loose": "c5c45a2fad4893937dcb55da9c5a036d708eca329b007c3d7b27eee16bdb9a2a",
+    "test/101/random": "eaa93c6e7ef0629cb3578993e651f0f6cffe869ca1f4b95c4cf0fffe0b1c81ee",
+    "test/101/switch": "46598b2328d785d168ad8ec63341a98ae0986c3b2377b2a3199d70599f1927f9"
+  },
+  "saved_ledgers": [
+    {
+      "file": "events/test_seed101_switch_pd_theta_2.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "pd_theta_2",
+      "ledger_sha256": "432ed43609cb152c34aa1762f6ab2075e499c266bdb862aef1ff7684bda82564"
+    },
+    {
+      "file": "events/test_seed101_switch_pd_theta_4.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "pd_theta_4",
+      "ledger_sha256": "12e934d34489797e2b17e7bf576e90896de9f6c5c366f951ca53ac97069bb8fa"
+    },
+    {
+      "file": "events/test_seed101_switch_pd_theta_8.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "pd_theta_8",
+      "ledger_sha256": "12e934d34489797e2b17e7bf576e90896de9f6c5c366f951ca53ac97069bb8fa"
+    },
+    {
+      "file": "events/test_seed101_switch_pd_theta_16.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "pd_theta_16",
+      "ledger_sha256": "12e934d34489797e2b17e7bf576e90896de9f6c5c366f951ca53ac97069bb8fa"
+    },
+    {
+      "file": "events/test_seed101_switch_pd_history.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "pd_history",
+      "ledger_sha256": "432ed43609cb152c34aa1762f6ab2075e499c266bdb862aef1ff7684bda82564"
+    },
+    {
+      "file": "events/test_seed101_switch_no_control_interpretation.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "no_control_interpretation",
+      "ledger_sha256": "432ed43609cb152c34aa1762f6ab2075e499c266bdb862aef1ff7684bda82564"
+    },
+    {
+      "file": "events/test_seed101_switch_no_pre_new_only.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "no_pre_new_only",
+      "ledger_sha256": "71b74a5eda6a773dd27022903ffb7d75f3d0f630c9eef66a83490f698d9b4ecf"
+    },
+    {
+      "file": "events/test_seed101_switch_greedy_hard_cap.jsonl",
+      "phase": "test",
+      "seed": 101,
+      "scenario": "switch",
+      "policy": "greedy_hard_cap",
+      "ledger_sha256": "0d8a18db7b1afacf96fcd4c540ae0d27348500e876680b2b3dae5d38e02497fd"
+    }
+  ],
+  "ledger_scope": "first test seed, switch scenario, all eight policies; other ledgers regenerate with --save-all-events",
+  "runtime_seconds": 4.8167417,
+  "peak_python_allocation_bytes": 1685747,
+  "files_sha256": {
+    "aggregate.csv": "b1c10e0c2b6fcfa9cd4323aae8c474ddd539ed9e103eaa3b5c85db507ba69358",
+    "config.json": "11078466cd5b52e8eff51edefb93af0b730eccfae296479372d4e59944232014",
+    "events/test_seed101_switch_greedy_hard_cap.jsonl": "45486ac5a316d18f37774610227db5a69cb93dd2b5cfdb6e16f11b6cc65d3955",
+    "events/test_seed101_switch_no_control_interpretation.jsonl": "8a76c6b55053ce474315defaafb31a192227bac62f137bacf9228aa76c9d0528",
+    "events/test_seed101_switch_no_pre_new_only.jsonl": "188f8e1e4f5078bd7f85d49eb4aa8f76e7c198e5e2f3aa952d2a53ca40fea280",
+    "events/test_seed101_switch_pd_history.jsonl": "8a76c6b55053ce474315defaafb31a192227bac62f137bacf9228aa76c9d0528",
+    "events/test_seed101_switch_pd_theta_16.jsonl": "1d89d5448c94a99b0c834812c16b242eee891882d785f89f323c2a9e60d02e50",
+    "events/test_seed101_switch_pd_theta_2.jsonl": "8a76c6b55053ce474315defaafb31a192227bac62f137bacf9228aa76c9d0528",
+    "events/test_seed101_switch_pd_theta_4.jsonl": "1d89d5448c94a99b0c834812c16b242eee891882d785f89f323c2a9e60d02e50",
+    "events/test_seed101_switch_pd_theta_8.jsonl": "1d89d5448c94a99b0c834812c16b242eee891882d785f89f323c2a9e60d02e50",
+    "paired_differences.csv": "da6d368f939523fa9a4e4df39a6cb63c1c4624747b422dc55d6e221ccf1aa269",
+    "profit_matrix.svg": "7ea64f3dc86e9f7fb4d3ea8dbf168aab857d2fc71428bcf3db3d533adb3a933a",
+    "runs.csv": "29ce1dd1c74e5be813338de4c3ba64d38e9b52706e8f192166b294c5a512020e",
+    "slot_metrics.csv": "2bd6748ddb90d3859793ff46c7f3a1d0999ec4420957e5d48ebbf1ee6c59744f",
+    "summary.md": "0e4b4c1ca5efb30460e7d2589d3911aa6b5fb116bcf7212aff2584221f3d9d1d",
+    "switch_timeseries.svg": "62f0474c962a13314398dbc38ca1ff7ca765d29c270d7845b9b197c30d20d1c2",
+    "traces/seed101_high_loose.csv": "86c1c93563bfd604a7d53d85e950638dec4a01ba7fd449a6de2bb5bc1a2963fe",
+    "traces/seed101_high_tight.csv": "1c510baea09c8851524ccb65f950386ad4715e9a0c7cda4b5fa99f55e5cb3f38",
+    "traces/seed101_random.csv": "c3d2614cf4e4144fcc4be816d922258d244b3e11a4a029e47eb3b382ba3427ec",
+    "traces/seed101_switch.csv": "04194e8d34da8c97e208d029d74e2bff787c78bd481e14384bf0e2b4f7d3cd3b"
+  }
+}

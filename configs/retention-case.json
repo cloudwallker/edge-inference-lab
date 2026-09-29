@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "edge-0",
+      "capacity": 4,
+      "upload_mbps": 2000,
+      "upload_cost_per_second": 0.001
+    }
+  ],
+  "links": [],
+  "models": {
+    "R-FCN": [
+      {
+        "id": "240p",
+        "accuracy": 0.102,
+        "vcpu": 0.5,
+        "inference_ms": 25,
+        "init_ms": 150,
+        "cost": 0.03
+      }
+    ]
+  },
+  "workload": {
+    "slots": 8,
+    "requests_per_slot": 4,
+    "block_slots": 1,
+    "switch_slot": 3,
+    "data_mb": [
+      0.5,
+      2
+    ],
+    "deadline_ms": [
+      100,
+      450
+    ]
+  },
+  "algorithm": {
+    "concurrency": 2,
+    "floor": 1,
+    "theta": 2,
+    "resource_unit": 0.5
+  },
+  "pricing": {
+    "deadline_levels_ms": [
+      100,
+      200,
+      300,
+      450
+    ],
+    "payments": {
+      "R-FCN": {
+        "240p": [
+          0.7,
+          0.6,
+          0.5,
+          0.4
+        ]
+      }
+    }
+  },
+  "seeds": {
+    "development": [
+      1,
+      2,
+      3
+    ],
+    "test": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  "provenance": {
+    "paper": "https://www.cs.cityu.edu.hk/~weliang/papers/ZLXJY25.pdf",
+    "accuracy": "reported: Table II, p.6220",
+    "vcpu_and_concurrency": "reported: Table III and VI-A, p.6220",
+    "inference_ms_and_cost": "derived: fixed midpoint of Table III ranges; per request",
+    "init_ms": "derived: fixed midpoint of VI-A [100,200]ms; fixed per model-resolution",
+    "capacity_links": "teaching manual case: 1 node, capacity 4 vCPU, not the paper scale",
+    "upload_mbps": "teaching: fixed effective per-request rate; no OFDMA sharing or SINR simulation",
+    "upload_cost_per_second": "teaching unit convention: Eq3 describes xi per time; VI-A says per Mbps",
+    "pricing": "teaching: original psi amount/boundary table unavailable; no startup or idle fee",
+    "workload": "teaching: uniform model/source and data; binary accuracy/deadline marginals, paired by model-block",
+    "seed_protocol": "frozen before study; development 1/2/3, independent test 101-110; fixed topology"
+  }
+}

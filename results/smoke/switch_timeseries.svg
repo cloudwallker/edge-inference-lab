@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="535" viewBox="0 0 900 535" role="img">
+<title>Switch response: mean slot profit and qualified service ratio</title>
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#183042} .muted{fill:#586c7b}</style>
+<text x="20" y="28" font-size="19" >Pairing switch: high-tight → high-loose (test-seed means)</text>
+<line x1="50" y1="51" x2="70" y2="51" stroke="#0072B2" stroke-width="3"/>
+<text x="76" y="56" font-size="12" >pd_theta_2</text>
+<line x1="215" y1="51" x2="235" y2="51" stroke="#D55E00" stroke-width="3"/>
+<text x="241" y="56" font-size="12" >pd_theta_4</text>
+<line x1="380" y1="51" x2="400" y2="51" stroke="#009E73" stroke-width="3"/>
+<text x="406" y="56" font-size="12" >pd_theta_8</text>
+<line x1="545" y1="51" x2="565" y2="51" stroke="#CC79A7" stroke-width="3"/>
+<text x="571" y="56" font-size="12" >pd_theta_16</text>
+<line x1="710" y1="51" x2="730" y2="51" stroke="#6a4c93" stroke-width="3"/>
+<text x="736" y="56" font-size="12" >pd_history</text>
+<text x="80" y="82" font-size="14" >Simulated profit / slot (USD)</text>
+<path d="M 80 95 V 245 H 850" fill="none" stroke="#708797"/>
+<text x="70" y="249.0" font-size="11" text-anchor="end">0.00</text>
+<line x1="80" y1="245.0" x2="850" y2="245.0" stroke="#e0e7ed"/>
+<text x="70" y="211.5" font-size="11" text-anchor="end">5.11</text>
+<line x1="80" y1="207.5" x2="850" y2="207.5" stroke="#e0e7ed"/>
+<text x="70" y="174.0" font-size="11" text-anchor="end">10.21</text>
+<line x1="80" y1="170.0" x2="850" y2="170.0" stroke="#e0e7ed"/>
+<text x="70" y="136.5" font-size="11" text-anchor="end">15.32</text>
+<line x1="80" y1="132.5" x2="850" y2="132.5" stroke="#e0e7ed"/>
+<text x="70" y="99.0" font-size="11" text-anchor="end">20.43</text>
+<line x1="80" y1="95.0" x2="850" y2="95.0" stroke="#e0e7ed"/>
+<line x1="465.0" y1="95" x2="465.0" y2="245" stroke="#333" stroke-dasharray="5,4"/>
+<polyline points="80.00,95.00 336.67,95.01 593.33,144.93 850.00,144.56" fill="none" stroke="#0072B2" stroke-width="2"/>
+<polyline points="80.00,95.00 336.67,95.01 593.33,144.93 850.00,144.56" fill="none" stroke="#D55E00" stroke-width="2"/>
+<polyline points="80.00,95.00 336.67,95.01 593.33,144.93 850.00,144.56" fill="none" stroke="#009E73" stroke-width="2"/>
+<polyline points="80.00,95.00 336.67,95.01 593.33,144.93 850.00,144.56" fill="none" stroke="#CC79A7" stroke-width="2"/>
+<polyline points="80.00,95.00 336.67,95.01 593.33,144.93 850.00,144.56" fill="none" stroke="#6a4c93" stroke-width="2"/>
+<text x="80.0" y="263" font-size="11" text-anchor="middle">0</text>
+<text x="336.66666666666663" y="263" font-size="11" text-anchor="middle">1</text>
+<text x="593.3333333333333" y="263" font-size="11" text-anchor="middle">2</text>
+<text x="850.0" y="263" font-size="11" text-anchor="middle">3</text>
+<text x="80" y="312" font-size="14" >Quality and deadline qualified / arriving requests</text>
+<path d="M 80 325 V 475 H 850" fill="none" stroke="#708797"/>
+<text x="70" y="479.0" font-size="11" text-anchor="end">0.00</text>
+<line x1="80" y1="475.0" x2="850" y2="475.0" stroke="#e0e7ed"/>
+<text x="70" y="441.5" font-size="11" text-anchor="end">0.25</text>
+<line x1="80" y1="437.5" x2="850" y2="437.5" stroke="#e0e7ed"/>
+<text x="70" y="404.0" font-size="11" text-anchor="end">0.50</text>
+<line x1="80" y1="400.0" x2="850" y2="400.0" stroke="#e0e7ed"/>
+<text x="70" y="366.5" font-size="11" text-anchor="end">0.75</text>
+<line x1="80" y1="362.5" x2="850" y2="362.5" stroke="#e0e7ed"/>
+<text x="70" y="329.0" font-size="11" text-anchor="end">1.00</text>
+<line x1="80" y1="325.0" x2="850" y2="325.0" stroke="#e0e7ed"/>
+<line x1="465.0" y1="325" x2="465.0" y2="475" stroke="#333" stroke-dasharray="5,4"/>
+<polyline points="80.00,325.00 336.67,325.00 593.33,325.00 850.00,325.00" fill="none" stroke="#0072B2" stroke-width="2"/>
+<polyline points="80.00,325.00 336.67,325.00 593.33,325.00 850.00,325.00" fill="none" stroke="#D55E00" stroke-width="2"/>
+<polyline points="80.00,325.00 336.67,325.00 593.33,325.00 850.00,325.00" fill="none" stroke="#009E73" stroke-width="2"/>
+<polyline points="80.00,325.00 336.67,325.00 593.33,325.00 850.00,325.00" fill="none" stroke="#CC79A7" stroke-width="2"/>
+<polyline points="80.00,325.00 336.67,325.00 593.33,325.00 850.00,325.00" fill="none" stroke="#6a4c93" stroke-width="2"/>
+<text x="80.0" y="493" font-size="11" text-anchor="middle">0</text>
+<text x="336.66666666666663" y="493" font-size="11" text-anchor="middle">1</text>
+<text x="593.3333333333333" y="493" font-size="11" text-anchor="middle">2</text>
+<text x="850.0" y="493" font-size="11" text-anchor="middle">3</text>
+<text x="22" y="523" font-size="12" >Nominal accuracy and simulated delays; this is not measured neural-model quality or deployed service goodput.</text>
+</svg>

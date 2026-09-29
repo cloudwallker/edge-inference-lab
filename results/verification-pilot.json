@@ -1,0 +1,9 @@
+{
+  "status": "match",
+  "checked_runs": 416,
+  "checked_rows": 456,
+  "recorded_package_sha256": "4a0416196574d33ea656583d9c296163ae6e9456b66aa4159a89c379858a8632",
+  "verified_package_sha256": "6e0297aa983cc012af43041a9255a56b8075b1e4f46003e1659ad0dac7440eb9",
+  "config_sha256": "93c1a3166cbb1936a306b0428395d3656389dfaeadd8ff876999035ee53e0e9b",
+  "verification": "all artifact hashes, regenerated traces, full event hashes, scalar metrics and development selection; excludes runtime/memory replay"
+}

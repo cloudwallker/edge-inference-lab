@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img">
+<title>Mean simulated profit across test seeds</title>
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#183042} .muted{fill:#586c7b}</style>
+<text x="24" y="30" font-size="19" >Mean simulated profit (USD); each cell shows mean ± seed SD</text>
+<text x="24" y="53" font-size="13" >Teaching prices and disclosed primal-dual interpretation; resource slack is reported separately.</text>
+<text x="390" y="82" font-size="13" text-anchor="middle">high_tight</text>
+<text x="550" y="82" font-size="13" text-anchor="middle">high_loose</text>
+<text x="710" y="82" font-size="13" text-anchor="middle">random</text>
+<text x="870" y="82" font-size="13" text-anchor="middle">switch</text>
+<text x="22" y="116" font-size="13" >pd_theta_2</text>
+<rect x="312" y="95" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="114" font-size="13" text-anchor="middle">1047.91 ± 10.08</text>
+<rect x="472" y="95" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="114" font-size="13" text-anchor="middle">819.87 ± 0.98</text>
+<rect x="632" y="95" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="114" font-size="13" text-anchor="middle">1032.09 ± 5.73</text>
+<rect x="792" y="95" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="114" font-size="13" text-anchor="middle">934.84 ± 6.66</text>
+<text x="22" y="148" font-size="13" >pd_theta_4</text>
+<rect x="312" y="127" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="146" font-size="13" text-anchor="middle">1050.30 ± 10.17</text>
+<rect x="472" y="127" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="146" font-size="13" text-anchor="middle">819.06 ± 0.99</text>
+<rect x="632" y="127" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="146" font-size="13" text-anchor="middle">1036.06 ± 6.61</text>
+<rect x="792" y="127" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="146" font-size="13" text-anchor="middle">936.14 ± 6.66</text>
+<text x="22" y="180" font-size="13" >pd_theta_8</text>
+<rect x="312" y="159" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="178" font-size="13" text-anchor="middle">1051.97 ± 10.09</text>
+<rect x="472" y="159" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="178" font-size="13" text-anchor="middle">818.22 ± 0.95</text>
+<rect x="632" y="159" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="178" font-size="13" text-anchor="middle">1039.24 ± 6.09</text>
+<rect x="792" y="159" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="178" font-size="13" text-anchor="middle">938.18 ± 7.17</text>
+<text x="22" y="212" font-size="13" >pd_theta_16</text>
+<rect x="312" y="191" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="210" font-size="13" text-anchor="middle">1053.88 ± 10.04</text>
+<rect x="472" y="191" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="210" font-size="13" text-anchor="middle">817.05 ± 1.39</text>
+<rect x="632" y="191" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="210" font-size="13" text-anchor="middle">1041.81 ± 6.01</text>
+<rect x="792" y="191" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="210" font-size="13" text-anchor="middle">942.85 ± 7.47</text>
+<text x="22" y="244" font-size="13" >pd_history</text>
+<rect x="312" y="223" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="242" font-size="13" text-anchor="middle">1047.92 ± 10.07</text>
+<rect x="472" y="223" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="242" font-size="13" text-anchor="middle">819.87 ± 0.98</text>
+<rect x="632" y="223" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="242" font-size="13" text-anchor="middle">1032.09 ± 5.73</text>
+<rect x="792" y="223" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="242" font-size="13" text-anchor="middle">934.84 ± 6.66</text>
+<text x="22" y="276" font-size="13" >pd_dev_selected</text>
+<rect x="312" y="255" width="154" height="28" rx="3" fill="rgb(182,192,245)"/>
+<text x="389" y="274" font-size="13" text-anchor="middle">1053.88 ± 10.04</text>
+<rect x="472" y="255" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="274" font-size="13" text-anchor="middle">817.05 ± 1.39</text>
+<rect x="632" y="255" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="274" font-size="13" text-anchor="middle">1041.81 ± 6.01</text>
+<rect x="792" y="255" width="154" height="28" rx="3" fill="rgb(189,199,245)"/>
+<text x="869" y="274" font-size="13" text-anchor="middle">942.85 ± 7.47</text>
+<text x="22" y="308" font-size="13" >no_control_interpretation</text>
+<line x1="20" y1="284" x2="974" y2="284" stroke="#8da0ae"/>
+<rect x="312" y="287" width="154" height="28" rx="3" fill="rgb(170,180,245)"/>
+<text x="389" y="306" font-size="13" text-anchor="middle">1266.27 ± 2.13</text>
+<rect x="472" y="287" width="154" height="28" rx="3" fill="rgb(196,206,245)"/>
+<text x="549" y="306" font-size="13" text-anchor="middle">820.29 ± 1.07</text>
+<rect x="632" y="287" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="306" font-size="13" text-anchor="middle">1036.01 ± 6.11</text>
+<rect x="792" y="287" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="869" y="306" font-size="13" text-anchor="middle">1043.62 ± 1.64</text>
+<text x="22" y="340" font-size="13" >no_pre_new_only</text>
+<rect x="312" y="319" width="154" height="28" rx="3" fill="rgb(229,239,245)"/>
+<text x="389" y="338" font-size="13" text-anchor="middle">264.08 ± 1.34</text>
+<rect x="472" y="319" width="154" height="28" rx="3" fill="rgb(235,245,245)"/>
+<text x="549" y="338" font-size="13" text-anchor="middle">156.28 ± 1.42</text>
+<rect x="632" y="319" width="154" height="28" rx="3" fill="rgb(231,241,245)"/>
+<text x="709" y="338" font-size="13" text-anchor="middle">229.32 ± 1.98</text>
+<rect x="792" y="319" width="154" height="28" rx="3" fill="rgb(232,242,245)"/>
+<text x="869" y="338" font-size="13" text-anchor="middle">210.44 ± 2.08</text>
+<text x="22" y="372" font-size="13" >greedy_hard_cap</text>
+<rect x="312" y="351" width="154" height="28" rx="3" fill="rgb(192,202,245)"/>
+<text x="389" y="370" font-size="13" text-anchor="middle">879.26 ± 2.52</text>
+<rect x="472" y="351" width="154" height="28" rx="3" fill="rgb(194,204,245)"/>
+<text x="549" y="370" font-size="13" text-anchor="middle">847.02 ± 1.11</text>
+<rect x="632" y="351" width="154" height="28" rx="3" fill="rgb(183,193,245)"/>
+<text x="709" y="370" font-size="13" text-anchor="middle">1045.75 ± 6.27</text>
+<rect x="792" y="351" width="154" height="28" rx="3" fill="rgb(193,203,245)"/>
+<text x="869" y="370" font-size="13" text-anchor="middle">865.08 ± 2.50</text>
+<text x="24" y="416" font-size="12" >First six rows share admission and initialization; bottom rows are separate interpretation / teaching baselines.</text>
+</svg>

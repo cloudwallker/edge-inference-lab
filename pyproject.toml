@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge-inference-lab"
+version = "0.1.0"
+description = "Reproducible learning experiments for edge AI inference scheduling"
+requires-python = ">=3.9"
+dependencies = []
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.scripts]
+edge-inference-lab = "edge_inference_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

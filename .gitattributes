@@ -1,0 +1,2 @@
+# Preserve exact source/artifact bytes for recorded SHA256 verification.
+* -text

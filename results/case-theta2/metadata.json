@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "experiment": "manual_case",
+  "policy": {
+    "name": "pd_theta_2",
+    "theta": 2,
+    "retention": "fixed",
+    "admission": "dual",
+    "preload": true,
+    "no_control": false
+  },
+  "environment": {
+    "python": "3.9.25",
+    "system": "Windows",
+    "machine": "",
+    "package_version": "0.1.0",
+    "source_sha256": "4a0416196574d33ea656583d9c296163ae6e9456b66aa4159a89c379858a8632",
+    "memory_method": "tracemalloc peak Python allocations; not process peak RSS"
+  },
+  "config_sha256": "cb3d42f0c8dcd6da0430a0986fbef7da84e996c3e598c60f4c45f6108c6ecf0b",
+  "trace_sha256": "cc154eefdb1c5ff9d71a5ad3bebe5232bbf5114c3fe31f6cdd178ee4980ae37f",
+  "ledger_sha256": "18eeb7a9af778c6e483e355621f0ee768e0b8572a8c9385331dae537579269b4",
+  "runtime_seconds": 0.1419066,
+  "peak_python_allocation_bytes": 241106,
+  "files_sha256": {
+    "config.json": "5128d75a218d5856555080d015efc9306a947371a4d92ea1f568702ceb27282d",
+    "events.jsonl": "a6af3b69f2e39e5c212c45556885d17c9ed4963c592578ee1f35ba528954299c",
+    "requests.csv": "7246ddb237f519500214e26ffb2b2a3ca5428af6a8e93d38f203112f9d52154e",
+    "summary.json": "9a4c6ad22ca0327a65951ea7ed27bcf312d08fddff02763b05c8c5425b656cde"
+  }
+}

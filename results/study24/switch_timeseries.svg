@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="535" viewBox="0 0 900 535" role="img">
+<title>Switch response: mean slot profit and qualified service ratio</title>
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#183042} .muted{fill:#586c7b}</style>
+<text x="20" y="28" font-size="19" >Pairing switch: high-tight → high-loose (test-seed means)</text>
+<line x1="50" y1="51" x2="70" y2="51" stroke="#0072B2" stroke-width="3"/>
+<text x="76" y="56" font-size="12" >pd_theta_2</text>
+<line x1="215" y1="51" x2="235" y2="51" stroke="#D55E00" stroke-width="3"/>
+<text x="241" y="56" font-size="12" >pd_theta_4</text>
+<line x1="380" y1="51" x2="400" y2="51" stroke="#009E73" stroke-width="3"/>
+<text x="406" y="56" font-size="12" >pd_theta_8</text>
+<line x1="545" y1="51" x2="565" y2="51" stroke="#CC79A7" stroke-width="3"/>
+<text x="571" y="56" font-size="12" >pd_theta_16</text>
+<line x1="710" y1="51" x2="730" y2="51" stroke="#6a4c93" stroke-width="3"/>
+<text x="736" y="56" font-size="12" >pd_history</text>
+<text x="80" y="82" font-size="14" >Simulated profit / slot (USD)</text>
+<path d="M 80 95 V 245 H 850" fill="none" stroke="#708797"/>
+<text x="70" y="249.0" font-size="11" text-anchor="end">0.00</text>
+<line x1="80" y1="245.0" x2="850" y2="245.0" stroke="#e0e7ed"/>
+<text x="70" y="211.5" font-size="11" text-anchor="end">11.20</text>
+<line x1="80" y1="207.5" x2="850" y2="207.5" stroke="#e0e7ed"/>
+<text x="70" y="174.0" font-size="11" text-anchor="end">22.40</text>
+<line x1="80" y1="170.0" x2="850" y2="170.0" stroke="#e0e7ed"/>
+<text x="70" y="136.5" font-size="11" text-anchor="end">33.59</text>
+<line x1="80" y1="132.5" x2="850" y2="132.5" stroke="#e0e7ed"/>
+<text x="70" y="99.0" font-size="11" text-anchor="end">44.79</text>
+<line x1="80" y1="95.0" x2="850" y2="95.0" stroke="#e0e7ed"/>
+<line x1="465.0" y1="95" x2="465.0" y2="245" stroke="#333" stroke-dasharray="5,4"/>
+<polyline points="80.00,101.34 113.48,99.00 146.96,97.53 180.43,96.07 213.91,97.90 247.39,98.46 280.87,97.88 314.35,99.20 347.83,100.91 381.30,98.50 414.78,100.01 448.26,95.79 481.74,129.46 515.22,131.35 548.70,129.84 582.17,131.15 615.65,129.84 649.13,130.96 682.61,129.61 716.09,131.63 749.57,130.43 783.04,131.01 816.52,129.40 850.00,131.98" fill="none" stroke="#0072B2" stroke-width="2"/>
+<polyline points="80.00,101.34 113.48,99.00 146.96,97.53 180.43,95.80 213.91,97.65 247.39,97.79 280.87,97.55 314.35,98.86 347.83,100.61 381.30,98.01 414.78,99.80 448.26,95.58 481.74,128.28 515.22,131.13 548.70,129.22 582.17,130.80 615.65,129.79 649.13,131.07 682.61,129.59 716.09,131.92 749.57,130.50 783.04,131.22 816.52,129.79 850.00,132.07" fill="none" stroke="#D55E00" stroke-width="2"/>
+<polyline points="80.00,101.34 113.48,99.00 146.96,97.53 180.43,95.80 213.91,97.65 247.39,97.62 280.87,97.31 314.35,98.58 347.83,100.32 381.30,97.74 414.78,99.43 448.26,95.15 481.74,129.00 515.22,132.21 548.70,128.19 582.17,129.29 615.65,128.40 649.13,130.11 682.61,128.40 716.09,131.20 749.57,130.50 783.04,131.37 816.52,129.84 850.00,132.09" fill="none" stroke="#009E73" stroke-width="2"/>
+<polyline points="80.00,101.34 113.48,99.00 146.96,97.53 180.43,95.80 213.91,97.65 247.39,97.62 280.87,97.31 314.35,98.58 347.83,100.32 381.30,97.73 414.78,99.26 448.26,95.00 481.74,130.29 515.22,131.97 548.70,127.37 582.17,128.29 615.65,127.10 649.13,128.43 682.61,126.61 716.09,129.73 749.57,128.17 783.04,129.14 816.52,127.72 850.00,130.46" fill="none" stroke="#CC79A7" stroke-width="2"/>
+<polyline points="80.00,101.34 113.48,99.00 146.96,97.53 180.43,96.07 213.91,97.90 247.39,98.46 280.87,97.88 314.35,99.20 347.83,100.91 381.30,98.50 414.78,100.01 448.26,95.79 481.74,129.46 515.22,131.35 548.70,129.84 582.17,131.15 615.65,129.84 649.13,130.96 682.61,129.61 716.09,131.63 749.57,130.43 783.04,131.01 816.52,129.40 850.00,131.98" fill="none" stroke="#6a4c93" stroke-width="2"/>
+<text x="80.0" y="263" font-size="11" text-anchor="middle">0</text>
+<text x="113.47826086956522" y="263" font-size="11" text-anchor="middle">1</text>
+<text x="146.95652173913044" y="263" font-size="11" text-anchor="middle">2</text>
+<text x="180.43478260869566" y="263" font-size="11" text-anchor="middle">3</text>
+<text x="213.91304347826087" y="263" font-size="11" text-anchor="middle">4</text>
+<text x="247.3913043478261" y="263" font-size="11" text-anchor="middle">5</text>
+<text x="280.8695652173913" y="263" font-size="11" text-anchor="middle">6</text>
+<text x="314.3478260869565" y="263" font-size="11" text-anchor="middle">7</text>
+<text x="347.82608695652175" y="263" font-size="11" text-anchor="middle">8</text>
+<text x="381.304347826087" y="263" font-size="11" text-anchor="middle">9</text>
+<text x="414.7826086956522" y="263" font-size="11" text-anchor="middle">10</text>
+<text x="448.2608695652174" y="263" font-size="11" text-anchor="middle">11</text>
+<text x="481.7391304347826" y="263" font-size="11" text-anchor="middle">12</text>
+<text x="515.2173913043478" y="263" font-size="11" text-anchor="middle">13</text>
+<text x="548.695652173913" y="263" font-size="11" text-anchor="middle">14</text>
+<text x="582.1739130434783" y="263" font-size="11" text-anchor="middle">15</text>
+<text x="615.6521739130435" y="263" font-size="11" text-anchor="middle">16</text>
+<text x="649.1304347826086" y="263" font-size="11" text-anchor="middle">17</text>
+<text x="682.608695652174" y="263" font-size="11" text-anchor="middle">18</text>
+<text x="716.0869565217391" y="263" font-size="11" text-anchor="middle">19</text>
+<text x="749.5652173913044" y="263" font-size="11" text-anchor="middle">20</text>
+<text x="783.0434782608695" y="263" font-size="11" text-anchor="middle">21</text>
+<text x="816.5217391304348" y="263" font-size="11" text-anchor="middle">22</text>
+<text x="850.0" y="263" font-size="11" text-anchor="middle">23</text>
+<text x="80" y="312" font-size="14" >Quality and deadline qualified / arriving requests</text>
+<path d="M 80 325 V 475 H 850" fill="none" stroke="#708797"/>
+<text x="70" y="479.0" font-size="11" text-anchor="end">0.00</text>
+<line x1="80" y1="475.0" x2="850" y2="475.0" stroke="#e0e7ed"/>
+<text x="70" y="441.5" font-size="11" text-anchor="end">0.25</text>
+<line x1="80" y1="437.5" x2="850" y2="437.5" stroke="#e0e7ed"/>
+<text x="70" y="404.0" font-size="11" text-anchor="end">0.50</text>
+<line x1="80" y1="400.0" x2="850" y2="400.0" stroke="#e0e7ed"/>
+<text x="70" y="366.5" font-size="11" text-anchor="end">0.75</text>
+<line x1="80" y1="362.5" x2="850" y2="362.5" stroke="#e0e7ed"/>
+<text x="70" y="329.0" font-size="11" text-anchor="end">1.00</text>
+<line x1="80" y1="325.0" x2="850" y2="325.0" stroke="#e0e7ed"/>
+<line x1="465.0" y1="325" x2="465.0" y2="475" stroke="#333" stroke-dasharray="5,4"/>
+<polyline points="80.00,339.75 113.48,343.00 146.96,340.00 180.43,339.75 213.91,344.25 247.39,337.50 280.87,339.25 314.35,342.75 347.83,340.25 381.30,342.75 414.78,340.75 448.26,341.00 481.74,326.50 515.22,325.00 548.70,325.00 582.17,325.00 615.65,325.00 649.13,325.00 682.61,325.00 716.09,325.00 749.57,325.00 783.04,325.00 816.52,325.00 850.00,325.00" fill="none" stroke="#0072B2" stroke-width="2"/>
+<polyline points="80.00,339.75 113.48,343.00 146.96,340.00 180.43,339.75 213.91,344.25 247.39,337.50 280.87,339.25 314.35,342.75 347.83,340.25 381.30,342.75 414.78,340.75 448.26,341.00 481.74,325.75 515.22,325.75 548.70,325.00 582.17,325.00 615.65,325.00 649.13,325.00 682.61,325.00 716.09,325.00 749.57,325.00 783.04,325.00 816.52,325.00 850.00,325.00" fill="none" stroke="#D55E00" stroke-width="2"/>
+<polyline points="80.00,339.75 113.48,343.00 146.96,340.00 180.43,339.75 213.91,344.25 247.39,337.50 280.87,339.25 314.35,342.75 347.83,340.25 381.30,342.75 414.78,340.75 448.26,341.00 481.74,327.50 515.22,328.25 548.70,325.00 582.17,325.00 615.65,325.00 649.13,325.00 682.61,325.00 716.09,325.00 749.57,325.00 783.04,325.00 816.52,325.00 850.00,325.00" fill="none" stroke="#009E73" stroke-width="2"/>
+<polyline points="80.00,339.75 113.48,343.00 146.96,340.00 180.43,339.75 213.91,344.25 247.39,337.50 280.87,339.25 314.35,342.75 347.83,340.25 381.30,342.75 414.78,340.75 448.26,341.00 481.74,330.25 515.22,329.00 548.70,325.25 582.17,325.00 615.65,325.00 649.13,325.25 682.61,325.00 716.09,325.00 749.57,325.00 783.04,325.00 816.52,325.00 850.00,325.00" fill="none" stroke="#CC79A7" stroke-width="2"/>
+<polyline points="80.00,339.75 113.48,343.00 146.96,340.00 180.43,339.75 213.91,344.25 247.39,337.50 280.87,339.25 314.35,342.75 347.83,340.25 381.30,342.75 414.78,340.75 448.26,341.00 481.74,326.50 515.22,325.00 548.70,325.00 582.17,325.00 615.65,325.00 649.13,325.00 682.61,325.00 716.09,325.00 749.57,325.00 783.04,325.00 816.52,325.00 850.00,325.00" fill="none" stroke="#6a4c93" stroke-width="2"/>
+<text x="80.0" y="493" font-size="11" text-anchor="middle">0</text>
+<text x="113.47826086956522" y="493" font-size="11" text-anchor="middle">1</text>
+<text x="146.95652173913044" y="493" font-size="11" text-anchor="middle">2</text>
+<text x="180.43478260869566" y="493" font-size="11" text-anchor="middle">3</text>
+<text x="213.91304347826087" y="493" font-size="11" text-anchor="middle">4</text>
+<text x="247.3913043478261" y="493" font-size="11" text-anchor="middle">5</text>
+<text x="280.8695652173913" y="493" font-size="11" text-anchor="middle">6</text>
+<text x="314.3478260869565" y="493" font-size="11" text-anchor="middle">7</text>
+<text x="347.82608695652175" y="493" font-size="11" text-anchor="middle">8</text>
+<text x="381.304347826087" y="493" font-size="11" text-anchor="middle">9</text>
+<text x="414.7826086956522" y="493" font-size="11" text-anchor="middle">10</text>
+<text x="448.2608695652174" y="493" font-size="11" text-anchor="middle">11</text>
+<text x="481.7391304347826" y="493" font-size="11" text-anchor="middle">12</text>
+<text x="515.2173913043478" y="493" font-size="11" text-anchor="middle">13</text>
+<text x="548.695652173913" y="493" font-size="11" text-anchor="middle">14</text>
+<text x="582.1739130434783" y="493" font-size="11" text-anchor="middle">15</text>
+<text x="615.6521739130435" y="493" font-size="11" text-anchor="middle">16</text>
+<text x="649.1304347826086" y="493" font-size="11" text-anchor="middle">17</text>
+<text x="682.608695652174" y="493" font-size="11" text-anchor="middle">18</text>
+<text x="716.0869565217391" y="493" font-size="11" text-anchor="middle">19</text>
+<text x="749.5652173913044" y="493" font-size="11" text-anchor="middle">20</text>
+<text x="783.0434782608695" y="493" font-size="11" text-anchor="middle">21</text>
+<text x="816.5217391304348" y="493" font-size="11" text-anchor="middle">22</text>
+<text x="850.0" y="493" font-size="11" text-anchor="middle">23</text>
+<text x="22" y="523" font-size="12" >Nominal accuracy and simulated delays; this is not measured neural-model quality or deployed service goodput.</text>
+</svg>

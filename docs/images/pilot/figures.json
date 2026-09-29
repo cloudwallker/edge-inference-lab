@@ -1,0 +1,25 @@
+{
+  "source_config_sha256": "93c1a3166cbb1936a306b0428395d3656389dfaeadd8ff876999035ee53e0e9b",
+  "source_package_sha256": "4a0416196574d33ea656583d9c296163ae6e9456b66aa4159a89c379858a8632",
+  "test_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "matplotlib": "3.9.4",
+  "csv_sha256": {
+    "aggregate.csv": "c59d920bbfe769028fad7ae87b01a8b70c0c3014403183a46ce25cf02774ccb0",
+    "slot_metrics.csv": "88b4fd8382ddd9a11ce37f16cd415f05a218862d71fc6c1ceaf76a01d1c8ad87"
+  },
+  "images_sha256": {
+    "profit-matrix.png": "359902d06d82721f1c7e2cdfcc164f212013059ca4bdb1f84925de07484fa006",
+    "switch-response.png": "3d7440d1c97f390608db9b2e35acbad11a8e208466b28e0a46b3d107dabe9294"
+  }
+}
