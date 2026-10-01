@@ -12,6 +12,8 @@
 
 *由保存的 CSV 生成的24时间片实验图。价格为教学输入，利润需与资源松弛一起阅读。*
 
+![edge-inference-lab](docs/images/study24/cartoon-infographic.png)
+
 ## 快速开始
 
 Python 3.9+。模拟器没有第三方依赖，无需 GPU、模型权重或 API 密钥。在项目根目录运行：

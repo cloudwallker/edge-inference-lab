@@ -12,6 +12,8 @@ English | [中文](README_ZH.md)
 
 *Actual 24-slot results, generated from saved CSV files. Prices are teaching inputs; simulated profit must be read alongside resource slack.*
 
+![edge-inference-lab](docs/images/study24/cartoon-infographic.png)
+
 ## Quick start
 
 Python 3.9 or newer; the simulator has no external dependencies and needs no GPU, model weights, or API keys. From the project directory:
