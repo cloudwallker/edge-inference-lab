@@ -1,8 +1,8 @@
 # EdgeInferenceLab
 
-A reproducible learning study of edge AI inference scheduling.
+A CPU simulation study of accuracy–deadline pairing and edge inference instance retention.
 
-**Follow a research question from paper reading and recent related work to explicit assumptions, CPU simulations, controlled experiments, and evidence.** This project studies how pairing requested accuracy with deadlines affects instance retention while keeping their marginal distributions and the base request trace fixed.
+**Compare instance-retention policies in controlled 12-slot and 24-slot scheduling experiments, with event ledgers and reproducible reports.** The study changes the pairing of requested accuracy and deadlines while keeping their marginal distributions and the base request trace fixed.
 
 English | [中文](README_ZH.md)
 
@@ -82,11 +82,11 @@ Recorded profiling runs preceded final input-validation fixes. Numerical revalid
 
 ## Scope
 
-The starting paper is [Zhang et al., IEEE TMC 2025](https://www.cs.cityu.edu.hk/~weliang/papers/ZLXJY25.pdf), coauthored by Weifa Liang. The primal-dual path implements Eq. (31)/(32) and (39)–(42) under disclosed interpretations. It is **not the authors' code, an unambiguous full reproduction, or a new algorithm**. Printed candidate-set/mode inconsistencies, pricing gaps, unit choices, initialization and resource slack are documented. No competitive ratio is inherited.
+The starting paper is [Zhang et al., IEEE TMC 2025](https://www.cs.cityu.edu.hk/~weliang/papers/ZLXJY25.pdf), coauthored by Weifa Liang. The primal-dual path implements Eq. (31)/(32) and (39)–(42) under disclosed interpretations. Project-owned code implements the equations under disclosed conventions for candidate sets, modes, pricing, units, initialization and resource slack. The implementation map records these adaptations; the experiments evaluate this simulation model, with competitive-ratio analysis outside their scope.
 
-`qualified_ratio` only means nominal accuracy and simulated deadline are satisfied. It does **not** establish physically executable service under strict resource/concurrency constraints. Compare the slack metrics too. `no_control_interpretation`, `no_pre_new_only`, and `greedy_hard_cap` change more than retention and are separate interpretation/teaching baselines.
+`qualified_ratio` measures nominal accuracy and simulated deadline satisfaction. Evaluate it alongside physical capacity and warm-slot overflow to assess resource and concurrency feasibility. `no_control_interpretation`, `no_pre_new_only`, and `greedy_hard_cap` change more than retention and are separate interpretation/teaching baselines.
 
-All traces are synthetic. No neural model is trained or executed; reported model accuracy is a parameter, not a measured prediction quality. The project supports research learning and falsifiable evaluation, not a claim of novelty or deployed-system gains.
+All traces are synthetic, and model accuracy is an input parameter. The simulator evaluates scheduling choices, instance lifecycles and resource costs without running neural inference. The records support research learning and falsifiable evaluation within the disclosed model.
 
 ## License
 
